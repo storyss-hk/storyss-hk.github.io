@@ -1,0 +1,572 @@
+<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Wed Nov 20 2024 17:00:28 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="64e5e959d439db49e983950a" data-wf-site="64ddc1df90d3da8a292862da">
+<head>
+  <meta charset="utf-8">
+  <title>FAQs</title>
+  <meta content="FAQs" property="og:title">
+  <meta content="FAQs" property="twitter:title">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/storyss.webflow.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Noto Sans TC:100,300,regular,500,700,900:chinese-traditional,latin"]  }});</script>
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+  <style>
+.tiny-heart {
+  position: absolute;
+  opacity: 0;
+  background-color: #ff606b;
+  box-shadow: 0px 0px 50px 4px rgba(239, 35, 60, 0.7);
+  transform: rotate(45deg);
+  animation: animated-heart infinite ease-in;
+}
+.tiny-heart:before,
+.tiny-heart:after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ff606b;
+}
+.tiny-heart:before {
+  transform: translateX(-50%);
+}
+.tiny-heart:after {
+  transform: translateY(-50%);
+}
+@keyframes animated-heart {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0) rotate(45deg);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(0, -40%) rotate(45deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(0, -2000%) rotate(45deg);
+  }
+}
+</style>
+</head>
+<body>
+  <div class="page-wrapper">
+    <div class="global-styles w-embed">
+      <style>
+/* Make text look crisper and more legible in all browsers */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+/* Focus state style for keyboard navigation for the focusable elements */
+*[tabindex]:focus-visible,
+  input[type="file"]:focus-visible {
+   outline: 0.125rem solid #4d65ff;
+   outline-offset: 0.125rem;
+}
+/* Get rid of top margin on first element in any rich text element */
+.w-richtext > :not(div):first-child, .w-richtext > div:first-child > :first-child {
+  margin-top: 0 !important;
+}
+/* Get rid of bottom margin on last element in any rich text element */
+.w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
+	margin-bottom: 0 !important;
+}
+/* Prevent all click and hover interaction with an element */
+.pointer-events-off {
+	pointer-events: none;
+}
+/* Enables all click and hover interaction with an element */
+.pointer-events-on {
+  pointer-events: auto;
+}
+/* Create a class of .div-square which maintains a 1:1 dimension of a div */
+.div-square::after {
+	content: "";
+	display: block;
+	padding-bottom: 100%;
+}
+/* Make sure containers never lose their center alignment */
+.container-medium,.container-small, .container-large {
+	margin-right: auto !important;
+  margin-left: auto !important;
+}
+/* 
+Make the following elements inherit typography styles from the parent and not have hardcoded values. 
+Important: You will not be able to style for example "All Links" in Designer with this CSS applied.
+Uncomment this CSS to use it in the project. Leave this message for future hand-off.
+*/
+/*
+a,
+.w-input,
+.w-select,
+.w-tab-link,
+.w-nav-link,
+.w-dropdown-btn,
+.w-dropdown-toggle,
+.w-dropdown-link {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+}
+*/
+/* Apply "..." after 3 lines of text */
+.text-style-3lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+/* Apply "..." after 2 lines of text */
+.text-style-2lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+/* Adds inline flex display */
+.display-inlineflex {
+  display: inline-flex;
+}
+/* These classes are never overwritten */
+.hide {
+  display: none !important;
+}
+@media screen and (max-width: 991px) {
+    .hide, .hide-tablet {
+        display: none !important;
+    }
+}
+  @media screen and (max-width: 767px) {
+    .hide-mobile-landscape{
+      display: none !important;
+    }
+}
+  @media screen and (max-width: 479px) {
+    .hide-mobile{
+      display: none !important;
+    }
+}
+.margin-0 {
+  margin: 0rem !important;
+}
+.padding-0 {
+  padding: 0rem !important;
+}
+.spacing-clean {
+padding: 0rem !important;
+margin: 0rem !important;
+}
+.margin-top {
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-top {
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+.margin-right {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-right {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+.margin-bottom {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-bottom {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+.margin-left {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+.padding-left {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+.margin-horizontal {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+.padding-horizontal {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+.margin-vertical {
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-vertical {
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+</style>
+    </div>
+    <section data-w-id="b8c457ef-3d23-c513-0a40-a83031cc4eb4" class="nav">
+      <div class="padding-global">
+        <div class="container-large">
+          <div class="home-hero_component">
+            <div class="text-align-center">
+              <a href="index.html" class="nav_link w-inline-block">
+                <div class="nav_logo w-embed"><svg width="100%" height="auto" viewbox="0 0 44 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M40.3426 0.705811H43.8677V22.248L38.7759 17.9396V9.32269C38.2537 9.71437 36.5825 10.5761 34.0758 10.8894C31.5691 11.2027 18.1476 11.02 11.7502 10.8894C9.40017 11.5422 4.93506 14.7278 5.87508 22.248C6.60546 21.7002 7.25072 21.1737 7.84559 20.6883C9.80275 19.0914 11.2143 17.9396 13.317 17.9396H32.9008C36.5564 18.8535 43.8677 22.5614 43.8677 30.0815C43.8677 39.4818 38.3842 43.7902 34.0758 45.3569C30.6291 45.6703 16.7115 45.4875 10.1836 45.3569C8.35576 45.8792 4.62178 47.7853 4.30844 51.2321H0V30.0815L5.09179 33.215V42.6152C5.74454 41.9624 7.99008 40.6568 11.7502 40.6568H34.0758C36.2953 38.9595 40.3426 34.4683 38.7759 30.0815C35.6425 32.5883 32.5091 33.7372 31.3341 33.9983H10.9669C7.31129 32.301 1.17503 28.5148 0.783353 22.248C0 14.8062 3.91676 5.7976 11.7502 5.7976H35.6426C35.8491 5.71499 36.0469 5.6411 36.2374 5.56994C37.8531 4.96634 38.9411 4.5599 40.3426 0.705811ZM9.13313 26.43C10.3629 25.1733 13.1863 22.288 31.7258 23.423C32.9792 23.7364 34.8592 24.598 35.6426 24.9897C35.2509 26.1648 32.9792 28.5148 27.0257 28.5148C25.6192 28.5148 24.2687 28.5428 22.9715 28.5697C17.405 28.685 12.8204 28.78 9.00856 26.5564C9.04852 26.5165 9.08984 26.4742 9.13313 26.43Z" fill="#FF2C3B"></path>
+                  </svg></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <main class="main-wrapper">
+      <section class="section_privacy-policy">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-medium">
+              <div class="privacy_component">
+                <div class="box_square background-color-light"></div>
+                <h1>常見問題<br></h1>
+                <div class="privacy_body-wrapper">
+                  <div class="text-rich-text w-richtext">
+                    <p><strong>Q: 我可以篩選在首頁見到的人嗎?<br></strong>A: 你可在首頁右上角的篩選圖標修改性別 / 年齡範圍 / 你想找的關係</p>
+                    <p><strong>Q: 在哪裡可以看到關於我的通知?<br></strong>A: 在哪裡可以看到關於我的通知?</p>
+                    <p><strong>Q: 故事左上角顯示的2個圖標是什麼?<br></strong>A: 第1個是你跟對方的合拍度第2個是對方想找的關係</p>
+                    <p><strong>Q: 如何發佈你的故事?<br></strong>A: 可以點擊+按鈕, 有4種故事帖文工具, 你可自行選擇任何一種工具有故事想分享? 可用相片+文字去寫你的故事<br>文字不能表達? 使用錄音功能, 將你的故事用講或唱出來吧沒想法? 選擇Storyss提供的有趣問題/城中熱話去回答吧懶得想? 選擇Storyss提供的人生/愛情格言, 選一個最切合你當下的心情你可自選代表你故事的帖文顏色, 如果沒想法或者沒選的話, 帖文顏色會隨機揀選</p>
+                    <p><strong>Q: 如何開始聊天?<br></strong>A: 方法1: 你可以發佈你的故事, 很快就會有人跟你聊天方法2: 看到任何人有趣的故事, 你可主動透過故事跟對方發起聊天</p>
+                    <p><strong>Q: 跟對方無話題了, 怎麼辦?<br></strong>A: 如果跟對方無話題, Storyss 有2個方法可以幫你:方法1: 你可使用聊天室內Storyss為你們提供的破冰問題, 空降有趣好玩的問題讓雙方回答方法2: 你可關注對方, 看看對方最近更新的故事, 即可在不同的故事上, 發起聊天, 無限延伸你們的對話</p>
+                    <p><strong>Q: 我可以在哪裡找我關注了的人?<br></strong>A: 你可在菜單的第4個按鈕見到你關注的人, 或你的追隨者 每個用戶會有3個免費關注額度, 滿額後需使用點數去關注 關注對方後, 你將不會錯過任何的新動向, 讓你在未達成好友前, 時刻關注對方</p>
+                    <p><strong>Q: 如何認識更多朋友?<br></strong>A: 1. 多發佈自己的日常故事 2. 主動發信息給你感興趣的故事 3. 多關注別人 4. 聊得來的人, 好好抓緊, 加好友吧!</p>
+                    <p><strong>Q: 在哪裡可以修改我的用戶名/年齡?<br></strong>A: 你可以在我的-鉛筆圖標, 就可以隨時修改你的用戶名/年齡</p>
+                    <p><strong>Q: 在哪裡加我的個性標籤?<br></strong>A: 你可以在我的-鉛筆圖標, 可以增加/刪除你的個性標籤, 你亦可自行創造最能形容你的個性標籤</p>
+                    <p><strong>Q: 可以更改照片排序嗎?<br></strong>A: 你可以在我的-鉛筆圖標, 長按照片, 即可拖拉更改排序</p>
+                    <p><strong>Q: 在哪裡可以編輯我的人生故事?<br></strong>A: 你可以在我的-鉛筆圖標, 以最短的文字寫出你最精彩的人生故事, 人生故事會在你的檔案當眼處展示</p>
+                    <p><strong>Q: 什麼是評論標籤?<br></strong>A: 在你跟對方展開聊天後, 對方可對你發出評論標籤, 所以在聊天時, 請爭取好印象, 因為別人給予的評論標籤是不能移除 注意所有評論標籤都是匿名制</p>
+                    <p><strong>Q: 什麼是關注?<br></strong>A: 關注對方後, 你將不會錯過任何的新動向, 讓你在未達成好友前, 時刻關注對方 你可在菜單的第4個按鈕見到你關注的人, 或你的追隨者 每個用戶會有3個免費關注額度, 滿額後需使用點數去關注</p>
+                    <p><strong>Q: 為什麼要加好友? 有什麼好處?<br></strong>A: 1. 新聊天室有24小時有效時間, 聊得投契? 你可在限時內發出邀請, 對方接受後, 即可成為好友 2. 你可在首頁的關注內見到好友的新動向 3. 你跟對方的聊天室將永不過期, 但如果你解除好友後, 聊天室就會在24小時內過期 4. 在聊天室列表, 你加的好友將會長期置頂</p>
+                    <p><strong>Q: 加好友 跟關注 有什麼分別?<br></strong>A: 加好友: 需要雙方同意. 聊天室不會過期, 可隨時收到好友的最新動向 關注: 不需雙方同意, 可單方去關注任何人, 可隨時知道對方最新動向</p>
+                    <p><strong>Q: 如何加好友<br></strong>A: 任何一方, 都可在聊天室點更多選項按鈕, 要求加為好友, 對方接受後, 即成為好友</p>
+                    <p><strong>Q: 為什麼只有5個好友額度?<br></strong>A: 普通會員有免費5個好友額度, VIP會員則會增加到10個好友額度,</p>
+                    <p><strong>Q: 為什麼當我嘗試開始新的對話, 會要我去使用點數?<br></strong>A: 普通會員有5個好友額度, VIP會員有10個好友額度, 如果超過此額度, 在你再開始新對話的時候就需要使用點數 注意, 如果是對方主動發起聊天時, 是不會受此限制</p>
+                    <p><strong>Q: 為什麼我的聊天室會過期?<br></strong>A: 除了好友的聊天室不會過期外, 每種聊天室會都過期, 包括 新的聊天室 / 倒數中 / 已過期都有24小時有效時間 所以如果跟對方聊得來, 就請在有效時間內加好友吧!</p>
+                    <p><strong>Q: 我可以取消關注嗎?<br></strong>A: 你可以去菜單的第4個按鈕, 點右邊的3點按鈕, 即可取消關注</p>
+                    <p><strong>Q: 什麼是追隨者?<br></strong>A: 追隨者就是已關注你的人, 你寫的故事愈有趣, 愈好玩, 追隨你的人必然會愈多!</p>
+                    <p><strong>Q: 別人會知道我關注的人數嗎?<br></strong>A: 此人數是保密的, 只有你自己知道</p>
+                    <p><strong>Q: 別人會知道追隨我的人數嗎?<br></strong>A: 此人數是保密的, 只有你自己知道!</p>
+                    <p><strong>Q: 為什麼評論標籤會有數字?<br></strong>A: 每個評論標籤的數字是代表給予該評論標籤的總人數 例如: 大長腿36 即是有36個人認為你是大長腿</p>
+                    <p><strong>Q: 評論標籤有什麼用途?<br></strong>A: 第一可以讓你知道, 你在別人眼中是怎樣, 幫助你更了解自己 第二你可以在瀏覽別人檔案時, 你都可留意別人給予的評論標籤, 讓你了解對方是一個怎樣的人</p>
+                    <p><strong>Q: 哪裡是預覽檔案?<br></strong>A: 預覽可在編輯個人檔案的右邊頁面</p>
+                    <p><strong>Q: 見到有問題的內容, 如何舉報帖文?<br></strong>A: 長按任何一個帖文, 就可舉報有問題的帖文</p>
+                    <p><strong>Q: 隱藏個人相片 跟 於主頁隱藏我的帖文<br></strong>A: 隱藏個人相片: 是你的帖文在主頁會顯示, 只是別人見不到你的檔案照片, 這功能是免費, 所有會員都可使用 隱藏我的帖文功能: 開啟此功能後, 你所有的帖文都不會在主頁公開顯示, 只有你主動接觸而互相加好友後的人, 才可見到你完整的故事</p>
+                    <p><strong>Q: 什麼是隱藏年齡?<br></strong>A: 開啟隱藏年齡後, 別人將見不到你的年齡</p>
+                    <p><strong>Q: 什麼是關閉帳戶<br></strong>A: 關閉帳戶會暫停你的帳號。</p>
+                    <p><strong>Q: 什麼是刪除帳戶?<br></strong>A: 刪除帳戶將會刪除你於Storyss所有個人資料及紀錄。</p>
+                    <p><strong>Q: 在Storyss內不能付款, 怎麼辦?<br></strong>A: 請在我的頁面- 點撃付款問題- 馬上聯絡WHATS APP客服</p>
+                    <p><strong>Q: 點數的用途?<br></strong>A: 每日3個免費帖文, 額外帖文需使用點數 &quot;普通會員有5個好友額度, VIP會員有10個好友額度 新發起的聊天室需使用點數&quot; 每人有5個免費關注額度, 額外的需使用點數 熱門帖文需使用點數去發起聊天 每人可看到3個近期故事, 要解鎖完整故事需使用點數</p>
+                    <p><strong>Q: 在哪裡見到已購買的點數?<br></strong>A: 我的-Storyss點數- 會顯示已購買的點數</p>
+                    <p><strong>Q: VIP包括什麼功能?<br></strong>A: 於主頁隱藏我的檔案/帖文 瀏覽完整的檔案帖文 看其他人的評論標籤 好友額度 隨時知道誰關注我 每日發出6個免費帖文</p>
+                    <p><strong>Q: 精選/ 熱門 / 最新 / 關注 有什麼分別?<br></strong>A: 精選: 人氣最高的故事帖文 熱門: 受歡迎的故事帖文 最新: 最新故事帖文 關注: 你關注的人和已加朋友的故事帖文</p>
+                    <p><strong>Q: 為什麼我的故事會成為精選故事?<br></strong>A: 因為你寫的故事很精彩很受歡迎, 所以被Storyss挑選成為Storyss的精選故事!</p>
+                    <p><strong>Q: 在哪裡可以改我想找的關係?<br></strong>A: 你可在故事的左上角見到對方是否在尋找跟你一樣的關係 想改關係? 可在我的 - 檔案相片下方 - 點箭頭更</p>
+                    <p><br></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <section class="footer">
+      <div particle-generator="" class="particles-generator"></div>
+      <div class="padding-global">
+        <div class="container-medium">
+          <div class="padding-section-large">
+            <div data-w-id="0ebd9c51-87b1-7878-b1c0-a13d2a9c59a5" class="footer_component z-index-1">
+              <div class="footer_content-wrapper">
+                <div class="text-size-xxlarge">瀏覽用戶的故事帖子，開啟精彩的對話！💕</div>
+                <div class="spacer-medium"></div>
+                <div class="button-group hide-tablet">
+                  <div download-button="apple" class="button download">
+                    <div class="button-icon w-embed"><svg width="21" height="26" viewbox="0 0 21 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.0234 14.2003C17.0481 12.2814 18.0786 10.4657 19.7134 9.46068C18.6821 7.98776 16.9546 7.05389 15.1574 6.99766C13.2406 6.79646 11.3823 8.14469 10.4055 8.14469C9.40975 8.14469 7.90581 7.01764 6.28631 7.05096C4.17537 7.11916 2.20745 8.31932 1.18043 10.1648C-1.02725 13.9871 0.619484 19.6045 2.73426 22.6941C3.79232 24.207 5.0289 25.897 6.64693 25.8371C8.23027 25.7714 8.82162 24.8274 10.7328 24.8274C12.6263 24.8274 13.1811 25.8371 14.832 25.799C16.531 25.7714 17.6015 24.2793 18.6224 22.7521C19.3826 21.6741 19.9676 20.4827 20.3557 19.222C18.3591 18.3775 17.0257 16.3682 17.0234 14.2003Z" fill="currentColor"></path>
+                        <path d="M13.9051 4.96578C14.8315 3.85371 15.2879 2.42433 15.1774 0.981201C13.7621 1.12985 12.4548 1.80626 11.5159 2.87566C10.5978 3.92052 10.12 5.32475 10.2103 6.71272C11.6261 6.7273 13.018 6.06922 13.9051 4.96578Z" fill="currentColor"></path>
+                      </svg></div>
+                    <div class="button-text-wrapper">
+                      <div class="text-size-tiny _1-ch">Get it On</div>
+                      <div class="text-size-regular _1-ch">App Store</div>
+                    </div>
+                    <a href="#" class="is-desktop-lightbox w-inline-block w-lightbox">
+                      <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "_id": "65095df949c469f7ad23c97b",
+      "origFileName": "Apple QR.png",
+      "fileName": "Apple QR.png",
+      "fileSize": 6700,
+      "height": 720,
+      "url": "images/Apple-QR.png",
+      "width": 720,
+      "type": "image"
+    }
+  ],
+  "group": ""
+}</script>
+                    </a>
+                  </div>
+                  <div download-button="android" class="button download">
+                    <div class="button-icon w-embed"><svg width="28" height="31" viewbox="0 0 28 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_ii_0_19)">
+                          <path d="M1.36812 1.1512C1.03594 1.50279 0.839599 2.04843 0.839599 2.75502V28.0006C0.839599 28.7084 1.03594 29.2529 1.36812 29.6045L1.45259 29.6867L15.5947 15.5445V15.3778V15.2112L1.45259 1.06787L1.36812 1.1512Z" fill="url(#paint0_linear_0_19)"></path>
+                          <path d="M20.308 20.2602L15.5947 15.5446V15.3779V15.2113L20.3092 10.4968L20.4153 10.5573L26.0007 13.7307C27.5954 14.6371 27.5954 16.1199 26.0007 17.0274L20.4153 20.2008L20.308 20.2602Z" fill="url(#paint1_linear_0_19)"></path>
+                          <g filter="url(#filter1_i_0_19)">
+                            <path d="M20.4153 20.1997L15.5936 15.3779L1.3681 29.6046C1.8932 30.1616 2.76189 30.2301 3.74016 29.6753L20.4153 20.1997Z" fill="url(#paint2_linear_0_19)"></path>
+                          </g>
+                          <path d="M20.4153 10.5562L3.74016 1.08163C2.76189 0.525716 1.8932 0.595348 1.3681 1.1524L15.5947 15.379L20.4153 10.5562Z" fill="url(#paint3_linear_0_19)"></path>
+                        </g>
+                        <defs>
+                          <filter id="filter0_ii_0_19" x="0.8396" y="0.697998" width="26.3571" height="29.3606" filterunits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feflood flood-opacity="0" result="BackgroundImageFix">
+                            <feblend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape">
+                            <fecolormatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha">
+                            <feoffset dy="-0.171226">
+                            <fecomposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1">
+                            <fecolormatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0">
+                            <feblend mode="normal" in2="shape" result="effect1_innerShadow_0_19">
+                            <fecolormatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha">
+                            <feoffset dy="0.171226">
+                            <fecomposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1">
+                            <fecolormatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0">
+                            <feblend mode="normal" in2="effect1_innerShadow_0_19" result="effect2_innerShadow_0_19">
+                          </feblend></fecolormatrix></fecomposite></feoffset></fecolormatrix></feblend></fecolormatrix></fecomposite></feoffset></fecolormatrix></feblend></feflood></filter>
+                          <filter id="filter1_i_0_19" x="1.3681" y="15.3779" width="19.0472" height="14.6807" filterunits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feflood flood-opacity="0" result="BackgroundImageFix">
+                            <feblend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape">
+                            <fecolormatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha">
+                            <feoffset dy="-0.171226">
+                            <fecomposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1">
+                            <fecolormatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0">
+                            <feblend mode="normal" in2="shape" result="effect1_innerShadow_0_19">
+                          </feblend></fecolormatrix></fecomposite></feoffset></fecolormatrix></feblend></feflood></filter>
+                          <lineargradient id="paint0_linear_0_19" x1="14.3411" y1="2.48791" x2="-4.81566" y2="21.6447" gradientunits="userSpaceOnUse">
+                            <stop stop-color="#00A0FF"></stop>
+                            <stop offset="0.0066" stop-color="#00A1FF"></stop>
+                            <stop offset="0.2601" stop-color="#00BEFF"></stop>
+                            <stop offset="0.5122" stop-color="#00D2FF"></stop>
+                            <stop offset="0.7604" stop-color="#00DFFF"></stop>
+                            <stop offset="1" stop-color="#00E3FF"></stop>
+                          </lineargradient>
+                          <lineargradient id="paint1_linear_0_19" x1="28.0766" y1="15.3779" x2="0.456714" y2="15.3779" gradientunits="userSpaceOnUse">
+                            <stop stop-color="#FFE000"></stop>
+                            <stop offset="0.4087" stop-color="#FFBD00"></stop>
+                            <stop offset="0.7754" stop-color="#FFA500"></stop>
+                            <stop offset="1" stop-color="#FF9C00"></stop>
+                          </lineargradient>
+                          <lineargradient id="paint2_linear_0_19" x1="17.7968" y1="17.9964" x2="-8.18222" y2="43.9755" gradientunits="userSpaceOnUse">
+                            <stop stop-color="#FF3A44"></stop>
+                            <stop offset="1" stop-color="#C31162"></stop>
+                          </lineargradient>
+                          <lineargradient id="paint3_linear_0_19" x1="-2.21464" y1="-7.25162" x2="9.38572" y2="4.34875" gradientunits="userSpaceOnUse">
+                            <stop stop-color="#32A071"></stop>
+                            <stop offset="0.0685" stop-color="#2DA771"></stop>
+                            <stop offset="0.4762" stop-color="#15CF74"></stop>
+                            <stop offset="0.8009" stop-color="#06E775"></stop>
+                            <stop offset="1" stop-color="#00F076"></stop>
+                          </lineargradient>
+                        </defs>
+                      </svg></div>
+                    <div class="button-text-wrapper">
+                      <div class="text-size-tiny _1-ch">Get it On</div>
+                      <div class="text-size-regular _1-ch">Google Play</div>
+                    </div>
+                    <a href="#" class="is-desktop-lightbox w-inline-block w-lightbox">
+                      <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "_id": "65095df96bcbaf63087d29ba",
+      "origFileName": "Google QR.png",
+      "fileName": "Google QR.png",
+      "fileSize": 8055,
+      "height": 720,
+      "url": "images/Google-QR.png",
+      "width": 720,
+      "type": "image"
+    }
+  ],
+  "group": ""
+}</script>
+                    </a>
+                  </div>
+                </div>
+                <div class="button-group show-tablet">
+                  <a download-button="apple" href="https://apps.apple.com/hk/app/id1605933642" target="_blank" class="button download w-inline-block">
+                    <div class="button-icon w-embed"><svg width="21" height="26" viewbox="0 0 21 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.0234 14.2003C17.0481 12.2814 18.0786 10.4657 19.7134 9.46068C18.6821 7.98776 16.9546 7.05389 15.1574 6.99766C13.2406 6.79646 11.3823 8.14469 10.4055 8.14469C9.40975 8.14469 7.90581 7.01764 6.28631 7.05096C4.17537 7.11916 2.20745 8.31932 1.18043 10.1648C-1.02725 13.9871 0.619484 19.6045 2.73426 22.6941C3.79232 24.207 5.0289 25.897 6.64693 25.8371C8.23027 25.7714 8.82162 24.8274 10.7328 24.8274C12.6263 24.8274 13.1811 25.8371 14.832 25.799C16.531 25.7714 17.6015 24.2793 18.6224 22.7521C19.3826 21.6741 19.9676 20.4827 20.3557 19.222C18.3591 18.3775 17.0257 16.3682 17.0234 14.2003Z" fill="currentColor"></path>
+                        <path d="M13.9051 4.96578C14.8315 3.85371 15.2879 2.42433 15.1774 0.981201C13.7621 1.12985 12.4548 1.80626 11.5159 2.87566C10.5978 3.92052 10.12 5.32475 10.2103 6.71272C11.6261 6.7273 13.018 6.06922 13.9051 4.96578Z" fill="currentColor"></path>
+                      </svg></div>
+                    <div class="button-text-wrapper">
+                      <div class="text-size-tiny _1-ch">Get it On</div>
+                      <div class="text-size-regular _1-ch">App Store</div>
+                    </div>
+                  </a>
+                  <a download-button="android" href="https://play.google.com/store/apps/details?id=com.LikoNetwork.Story" target="_blank" class="button download w-inline-block">
+                    <div class="button-icon w-embed"><svg width="28" height="31" viewbox="0 0 28 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_ii_0_19)">
+                          <path d="M1.36812 1.1512C1.03594 1.50279 0.839599 2.04843 0.839599 2.75502V28.0006C0.839599 28.7084 1.03594 29.2529 1.36812 29.6045L1.45259 29.6867L15.5947 15.5445V15.3778V15.2112L1.45259 1.06787L1.36812 1.1512Z" fill="url(#paint0_linear_0_19)"></path>
+                          <path d="M20.308 20.2602L15.5947 15.5446V15.3779V15.2113L20.3092 10.4968L20.4153 10.5573L26.0007 13.7307C27.5954 14.6371 27.5954 16.1199 26.0007 17.0274L20.4153 20.2008L20.308 20.2602Z" fill="url(#paint1_linear_0_19)"></path>
+                          <g filter="url(#filter1_i_0_19)">
+                            <path d="M20.4153 20.1997L15.5936 15.3779L1.3681 29.6046C1.8932 30.1616 2.76189 30.2301 3.74016 29.6753L20.4153 20.1997Z" fill="url(#paint2_linear_0_19)"></path>
+                          </g>
+                          <path d="M20.4153 10.5562L3.74016 1.08163C2.76189 0.525716 1.8932 0.595348 1.3681 1.1524L15.5947 15.379L20.4153 10.5562Z" fill="url(#paint3_linear_0_19)"></path>
+                        </g>
+                        <defs>
+                          <filter id="filter0_ii_0_19" x="0.8396" y="0.697998" width="26.3571" height="29.3606" filterunits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feflood flood-opacity="0" result="BackgroundImageFix">
+                            <feblend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape">
+                            <fecolormatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha">
+                            <feoffset dy="-0.171226">
+                            <fecomposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1">
+                            <fecolormatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0">
+                            <feblend mode="normal" in2="shape" result="effect1_innerShadow_0_19">
+                            <fecolormatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha">
+                            <feoffset dy="0.171226">
+                            <fecomposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1">
+                            <fecolormatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0">
+                            <feblend mode="normal" in2="effect1_innerShadow_0_19" result="effect2_innerShadow_0_19">
+                          </feblend></fecolormatrix></fecomposite></feoffset></fecolormatrix></feblend></fecolormatrix></fecomposite></feoffset></fecolormatrix></feblend></feflood></filter>
+                          <filter id="filter1_i_0_19" x="1.3681" y="15.3779" width="19.0472" height="14.6807" filterunits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feflood flood-opacity="0" result="BackgroundImageFix">
+                            <feblend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape">
+                            <fecolormatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha">
+                            <feoffset dy="-0.171226">
+                            <fecomposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1">
+                            <fecolormatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0">
+                            <feblend mode="normal" in2="shape" result="effect1_innerShadow_0_19">
+                          </feblend></fecolormatrix></fecomposite></feoffset></fecolormatrix></feblend></feflood></filter>
+                          <lineargradient id="paint0_linear_0_19" x1="14.3411" y1="2.48791" x2="-4.81566" y2="21.6447" gradientunits="userSpaceOnUse">
+                            <stop stop-color="#00A0FF"></stop>
+                            <stop offset="0.0066" stop-color="#00A1FF"></stop>
+                            <stop offset="0.2601" stop-color="#00BEFF"></stop>
+                            <stop offset="0.5122" stop-color="#00D2FF"></stop>
+                            <stop offset="0.7604" stop-color="#00DFFF"></stop>
+                            <stop offset="1" stop-color="#00E3FF"></stop>
+                          </lineargradient>
+                          <lineargradient id="paint1_linear_0_19" x1="28.0766" y1="15.3779" x2="0.456714" y2="15.3779" gradientunits="userSpaceOnUse">
+                            <stop stop-color="#FFE000"></stop>
+                            <stop offset="0.4087" stop-color="#FFBD00"></stop>
+                            <stop offset="0.7754" stop-color="#FFA500"></stop>
+                            <stop offset="1" stop-color="#FF9C00"></stop>
+                          </lineargradient>
+                          <lineargradient id="paint2_linear_0_19" x1="17.7968" y1="17.9964" x2="-8.18222" y2="43.9755" gradientunits="userSpaceOnUse">
+                            <stop stop-color="#FF3A44"></stop>
+                            <stop offset="1" stop-color="#C31162"></stop>
+                          </lineargradient>
+                          <lineargradient id="paint3_linear_0_19" x1="-2.21464" y1="-7.25162" x2="9.38572" y2="4.34875" gradientunits="userSpaceOnUse">
+                            <stop stop-color="#32A071"></stop>
+                            <stop offset="0.0685" stop-color="#2DA771"></stop>
+                            <stop offset="0.4762" stop-color="#15CF74"></stop>
+                            <stop offset="0.8009" stop-color="#06E775"></stop>
+                            <stop offset="1" stop-color="#00F076"></stop>
+                          </lineargradient>
+                        </defs>
+                      </svg></div>
+                    <div class="button-text-wrapper">
+                      <div class="text-size-tiny _1-ch">Get it On</div>
+                      <div class="text-size-regular _1-ch">Google Play</div>
+                    </div>
+                  </a>
+                </div>
+              </div><img src="images/Exclude.svg" loading="lazy" alt="" class="footer_backround-logo"><img src="images/Exclude.svg" loading="lazy" alt="" class="footer_backround-logo is-right">
+            </div>
+          </div>
+        </div>
+        <div class="container-large">
+          <div class="padding-section-small">
+            <div class="footer7_bottom-wrapper">
+              <a href="index.html" class="footer7_legal-link">© <span id="year">2024</span> Storysss. All rights reserved.</a>
+              <div class="hide w-embed w-script">
+                <script>document.querySelector('#year').innerText = new Date().getFullYear();</script>
+              </div>
+              <div class="w-layout-grid footer7_legal-list">
+                <a href="terms-and-conditions.html" class="footer7_legal-link">條款</a>
+                <a href="privacy-policy.html" class="footer7_legal-link">隱私</a>
+                <a href="faqs.html" aria-current="page" class="footer7_legal-link w--current">常見問題</a>
+              </div>
+              <a href="https://www.mediastudio.space/" target="_blank" class="footer7_legal-link credit">Web Design by Media Studio</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=64ddc1df90d3da8a292862da" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.4.5/mobile-detect.min.js"></script>
+  <script>
+window.onload = function() {
+  var appleButtons = document.querySelectorAll('[download-button="apple"]');
+  var androidButtons = document.querySelectorAll('[download-button="android"]');
+  androidButtons.forEach(button => button.style.display = "none");
+  appleButtons.forEach(button => button.style.display = "none");
+  var md = new MobileDetect(window.navigator.userAgent);
+  if (md.os() === "iOS") {
+    appleButtons.forEach(button => button.style.display = "flex");
+  } else if (md.os() === "AndroidOS") {
+    androidButtons.forEach(button => button.style.display = "flex");
+  } else {
+    appleButtons.forEach(button => button.style.display = "flex");
+    androidButtons.forEach(button => button.style.display = "flex");
+  }
+};
+</script>
+  <script>
+  function randomNum(m, n) {
+    m = parseInt(m);
+    n = parseInt(n);
+    return Math.floor(Math.random() * (n - m + 1)) + m;
+  }
+  function heartAnimation() {
+    const particleGenerators = document.querySelectorAll('[particle-generator]');
+    particleGenerators.forEach(function(particles) {
+      const heartCount = (particles.offsetWidth / 50) * 1;
+      for (let i = 0; i < heartCount; i++) {
+        const heartSize = (randomNum(60, 120) / 5);
+        const heart = document.createElement('span');
+        heart.className = 'tiny-heart';
+        heart.style.top = `calc(100% - ${heartSize}px)`;
+        heart.style.left = `${randomNum(0, 100)}%`;
+        heart.style.width = `${heartSize}px`;
+        heart.style.height = `${heartSize}px`;
+        heart.style.animationDelay = `-${randomNum(0, 3)}s`;
+        heart.style.animationDuration = `${randomNum(2, 5)}s`;
+        particles.appendChild(heart);
+      }
+    });
+  }
+  window.onload = heartAnimation;
+</script>
+</body>
+</html>
