@@ -1235,6 +1235,7 @@ figcaption {
 }
 
 .button-icon {
+  font-size: 1.75rem;
   line-height: 1;
 }
 
@@ -2602,6 +2603,7 @@ figcaption {
 }
 
 .button-icon-google {
+  font-size: 1.75rem;
   line-height: 1;
 }
 
